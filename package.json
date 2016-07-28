@@ -1,0 +1,22 @@
+{
+  "name": "stylint-teamcity-reporter",
+  "version": "0.0.1",
+  "description": "Stylint TeamCity reporter",
+  "author": "Shuhrat Shadmonkulov <zumra6a@yandex-team.ru>",
+  "homepage": "https://github.com/shuhrat/stylint-teamcity-reporter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shuhrat/stylint-teamcity-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shuhrat/stylint-teamcity-reporter/issues"
+  },
+  "keywords": [
+    "stylint",
+    "teamcity"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
