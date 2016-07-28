@@ -19,22 +19,6 @@ You need to set `reporter` to `stylint-teamcity-reporter`
 stylint --reporter stylint-teamcity-reporter path/to/filename.styl
 ```
 
-
-### Non CLI
-
-You need to set `reporter` to `stylint-teamcity-reporter`` in config object.
-
-```json
-{
-  ...
-  "reporter": "stylint-teamcity-reporter",
-  "reporterOptions": {
-    "reportSeverity": "all"
-  }
-  ...
-}
-```
-
 ### Non CLI
 
 You need to set `reporter` to `stylint-json-reporter` in config object.
@@ -46,5 +30,9 @@ You need to set `reporter` to `stylint-json-reporter` in config object.
     "reportSeverity": "error"
   }
 }
+```
 
-Possible values for `reportSeverity"` are: 'all' (default), `warning`, and `error`
+Possible values for `reportSeverity` are: 
+- `all` - Report all messages, default
+- `warning` - Report only warnings
+- `error` - Report only errors
