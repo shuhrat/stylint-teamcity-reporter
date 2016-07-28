@@ -1,6 +1,6 @@
 {
   "name": "stylint-teamcity-reporter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Stylint TeamCity reporter",
   "author": "Shuhrat Shadmonkulov <zumra6a@yandex-team.ru>",
   "homepage": "https://github.com/shuhrat/stylint-teamcity-reporter",
