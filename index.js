@@ -67,12 +67,12 @@ module.exports = function (message, done) {
     }
 
     var file = cache.file;
-    var optionsSeverity = (options.severity || 'all').toLowerCase();
+    var reportSeverity = (options.reportSeverity || 'all').toLowerCase();
 
-    if (optionsSeverity !== 'all') {
+    if (reportSeverity !== 'all') {
         var severity = this.state.severity.toLowerCase();
 
-        if (severity !== optionsSeverity ) return '';
+        if (severity !== reportSeverity ) return '';
     }
 
     messagesByFile[file] || (messagesByFile[file] = []);
